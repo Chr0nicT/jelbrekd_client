@@ -8,17 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B8152599226CE48900D65702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8152598226CE48900D65702 /* main.m */; };
-		B8F2D0CD226D4FD300C829DD /* libjailbreak_mig.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F2D0CC226D4FD300C829DD /* libjailbreak_mig.m */; };
-		B8F2D0D1226D4FFD00C829DD /* jailbreak_daemonUser.c in Sources */ = {isa = PBXBuildFile; fileRef = B8F2D0CF226D4FFD00C829DD /* jailbreak_daemonUser.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B8152594226CE48900D65702 /* jelbrekd_client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = jelbrekd_client; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8152598226CE48900D65702 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B8F2D0CB226D4FBB00C829DD /* libjailbreak_mig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libjailbreak_mig.h; sourceTree = "<group>"; };
-		B8F2D0CC226D4FD300C829DD /* libjailbreak_mig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libjailbreak_mig.m; sourceTree = "<group>"; };
-		B8F2D0CF226D4FFD00C829DD /* jailbreak_daemonUser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jailbreak_daemonUser.c; sourceTree = "<group>"; };
-		B8F2D0D0226D4FFD00C829DD /* jailbreak_daemonUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jailbreak_daemonUser.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,29 +45,9 @@
 		B8152596226CE48900D65702 /* jelbrekd_client */ = {
 			isa = PBXGroup;
 			children = (
-				B8F2D0CA226D4FAD00C829DD /* libjailbreak_mig */,
 				B8152598226CE48900D65702 /* main.m */,
 			);
 			path = jelbrekd_client;
-			sourceTree = "<group>";
-		};
-		B8F2D0CA226D4FAD00C829DD /* libjailbreak_mig */ = {
-			isa = PBXGroup;
-			children = (
-				B8F2D0CE226D4FEF00C829DD /* user */,
-				B8F2D0CB226D4FBB00C829DD /* libjailbreak_mig.h */,
-				B8F2D0CC226D4FD300C829DD /* libjailbreak_mig.m */,
-			);
-			path = libjailbreak_mig;
-			sourceTree = "<group>";
-		};
-		B8F2D0CE226D4FEF00C829DD /* user */ = {
-			isa = PBXGroup;
-			children = (
-				B8F2D0CF226D4FFD00C829DD /* jailbreak_daemonUser.c */,
-				B8F2D0D0226D4FFD00C829DD /* jailbreak_daemonUser.h */,
-			);
-			path = user;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,9 +105,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8F2D0D1226D4FFD00C829DD /* jailbreak_daemonUser.c in Sources */,
 				B8152599226CE48900D65702 /* main.m in Sources */,
-				B8F2D0CD226D4FD300C829DD /* libjailbreak_mig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
